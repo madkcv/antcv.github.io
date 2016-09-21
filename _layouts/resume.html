@@ -27,13 +27,14 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          <p>Benvenuto e grazie per essere approdato! Sono Antonio e vengo da Varese, ed opero in questa zona specialmente a Milano, mi diletto nello sviluppo di landing page, blog minimal e portfolio mirali allo sviluppo dell'immagine professionale del libero professionista, imprendotore o studente. Inoltre, sono serrato in strategie di marketing su internet, ed offro consulenze e consigli utili sul mio network: anfolio, blogantoniotrento</p>
+          <p>Benvenuto e grazie per essere approdato! Sono Antonio e vengo da Varese, ed opero in questa zona specialmente a Milano, mi diletto nello sviluppo di landing page, blog minimal e portfolio mirali allo sviluppo dell'immagine professionale del libero professionista, imprendotore o studente.</p>
+          <p>Inoltre, sono serrato in strategie di marketing su internet, ed offro consulenze e consigli utili sul mio network: <a href"https://anfolio.github.io">anfolio</a>, <a href="https://blogantoniotrento.github.io">blogantoniotrento</a></p>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button" itemprop="email">Contact me</a>
+        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button" itemprop="email">Contattami</a>
         {% elsif site.resume_looking_for_work == 'no' %}
-        <a class="contact-button not-looking">I'm not looking for work right now.</a>
+        <a class="contact-button not-looking">Ora sembra io non funzioni... Scusa.</a>
         {% else %}
         {% endif %}
 
@@ -49,15 +50,16 @@
 
         <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Springfield Nuclear Power Plant</h3>
-          <h4 class="resume-item-details" itemprop="description">Safety Inspector &bull; Nov, 1980 &mdash; Present</h4>
-          <p class="resume-item-copy">Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:</p>
+          <h3 class="resume-item-title" itemprop="name">Comune di Milano- Palazzo Reale - VSA Group</h3>
+          <h4 class="resume-item-details" itemprop="description">Assistenza tecnica informatica e per sistemi di anti-incendio ed anti-intrusione &bull; Nov, 2015 &mdash; Present</h4>
+          <p class="resume-item-copy">Mi occupo dell'assistenza tecnica ai musei del comune di Milano dalla centrale posta in piazza Duomo, aiutando il team museale in:</p>
           <ul class="resume-item-list">
-            <li>Ate lots of donuts</li>
-            <li>Fell asleep rarely</li>
-            <li>Left promptly at end of day (sometimes earlier)</li>
+            <li>Assistenza e gestione allarmi in guasto o inserimenti e disinserimenti</li>
+            <li>Assistenza tenica per guidare il personale alla gestione di sitemi informatici</li>
+            <li>Assistenza tecnica alla Polizia Locale addetta alla supervizione dei musei</li>
+            <li>Assistenza tenica alla gestione di sitemi anti incendio dei locali comunali</li>
           </ul>
-          <p class="resume-item-copy">If you're going to copy paste markup, or edit it, just be sure to keep the appropriate classnames on your new elements for styling purposes.</p>
+          <!--<p class="resume-item-copy">.</p>-->
 
         </div><!-- end of resume-item -->
 
