@@ -1,6 +1,6 @@
 # Site settings
 title: "Antonio Trento Resume"
-description: "A resume of a computer scence and art fanathic."
+description: "A resume of a computer science, social and art fanathic."
 baseurl: "/jekyllresume.github.io" # the subpath of your site, e.g. /blog
 url: "https://antcv.github.io/antcv/antcv.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
