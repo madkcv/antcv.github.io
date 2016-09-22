@@ -42,11 +42,23 @@
         {% else %}
         {% endif %}
 
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            <li><a href="#esperienze">Esperienze</a></li>
+            <li><a href="#educazione">Educazione</a></li>
+            <li><a href="#progetti">Progetti</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#riconoscimenti">Riconoscimenti</a></li>
+            <li><a href="#associazioni">Associazioni</a></li>
+            <li><a href="#link">I miei links</a></li>
+          </ul>
+        </div>
+
       </header>
 
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
-      <section class="content-section">
+      <section id="esperienze" class="content-section">
 
         <header class="section-header">
           <h2>Esperienze</h2>
@@ -137,7 +149,7 @@
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
-      <section class="content-section">
+      <section id="educazione" class="content-section">
 
         <header class="section-header">
           <h2>Educazione</h2>
@@ -168,7 +180,7 @@
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
-      <section class="content-section">
+      <section id="progetti" class="content-section">
 
         <header class="section-header">
           <h2>Progetti</h2>
@@ -192,7 +204,7 @@
 
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
-      <section class="content-section">
+      <section id="skills" class="content-section">
 
         <header class="section-header">
           <h2>Skills</h2>
@@ -244,7 +256,7 @@
 
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
-      <section class="content-section">
+      <section id="riconoscimenti" class="content-section">
 
         <header class="section-header">
           <h2>Riconoscimenti</h2>
@@ -262,7 +274,7 @@
 
       {% if site.resume_section_associations %}
       <!-- begin Associations -->
-      <section class="content-section">
+      <section id="associazioni" class="content-section">
 
         <header class="section-header">
           <h2>Associazioni</h2>
@@ -280,7 +292,7 @@
 
       {% if site.resume_section_links %}
       <!-- begin Links -->
-      <section class="content-section">
+      <section id="link" class="content-section">
 
         <header class="section-header">
           <h2>I miei links</h2>
