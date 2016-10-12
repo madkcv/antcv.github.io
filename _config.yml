@@ -1,6 +1,6 @@
 # Site settings
-title: "Antonio Trento Resume"
-description: "A resume of a computer science, social and art fanathic."
+title: "Cristiano Leopardi Resume"
+description: "Il mio resume, edilizia restyle di interni e marketing."
 baseurl: "/madkcv.github.io" # the subpath of your site, e.g. /blog
 url: "https://madkcv.github.io/antcv/antcv.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
@@ -13,10 +13,10 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Antonio Trento"
-resume_title:                   "Web marketer, master and grow haker."
+resume_name:                    "Cristiano Leopardi"
+resume_title:                   "Edilizia, restyle di interni."
 resume_contact_email:
-  "lantoniotrento83@gmail.com"
+  "leopardicristiano@gmail.com"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -37,12 +37,10 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/antoniotrento"
-  resume_twitter_url:           "http://twitter.com/officialtrento"
-  resume_facebook_url:          "https://facebook.com/officialtrento"
-  resume_linkedin_url:          "https://www.linkedin.com/in/antoniotrento"
-  resume_instagram_url:         "https://instagram.com/officialtrento"
-  resume_website_url:           "https://antfolio.github.io"
+  resume_twitter_url:           "http://twitter.com/madkresume"
+  resume_facebook_url:          "https://www.facebook.com/cristianomadk.leopardi"
+  resume_linkedin_url:          "https://it.linkedin.com/in/cristiano-leopardi"
+  resume_website_url:           "https://madkfolio.github.io"
 
 
 # Design settings
