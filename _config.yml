@@ -1,6 +1,6 @@
 # Site settings
 title: "Cristiano Leopardi Resume"
-description: "Il mio resume, edilizia restyle di interni e marketing."
+description: "Il mio curriculum vitae, edilizia restyle di interni e marketing."
 baseurl: "/madkcv.github.io" # the subpath of your site, e.g. /blog
 url: "https://madkcv.github.io/antcv/antcv.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
